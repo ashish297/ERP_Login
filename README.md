@@ -19,7 +19,14 @@ Prerequisites
 
 ### Example of constants.py
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   YOUR_ROLL_NUMBER = ""  YOUR_PASSWORD = ""  YOUR_SCHOOL = ""  YOUR_FAV_SINGER = ""  YOUR_FAV_SPORT = ""  SELENIUM_DRIVER_PATH = "C:\\path\\to\\chromedriver.exe"  CHROME_USER_DATA_DIRECTORY = "C:\\path\\to\\chrome\\user\\data"   `
+`YOUR_ROLL_NUMBER = "<your roll no>"
+YOUR_PASSWORD = "<your password>"
+YOUR_SCHOOL = "<answer to security question>"
+YOUR_FAV_SINGER = "<answer to security question>"
+YOUR_FAV_SPORT = "<answer to security question>"
+SELENIUM_DRIVER_PATH = "C:\\path\\to\\chromedriver.exe"
+CHROME_USER_DATA_DIRECTORY = "C:\\path\\to\\chrome\\user\\data"`
+
 
 Setup Instructions by OS
 ------------------------
@@ -88,7 +95,7 @@ Chrome Version and ChromeDriver
 Usage
 -----
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   python your_script.py   `
+`python your_script.py `
 
 *   **Ensure Gmail is pre-logged in** to the specified profile.
     
