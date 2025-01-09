@@ -1,0 +1,11 @@
+*****************************SCHEMA OF CONSTANTS.PY*****************************
+YOUR_ROLL_NUMBER = "<your roll no>"
+YOUR_PASSWORD = "<your passqord>"
+
+# security questions answers
+YOUR_SCHOOL = "<answer of security question>"
+YOUR_FAV_SINGER = "<answer of security question>"
+YOUR_FAV_SPORT = "<answer of security question>"
+
+SELENIUM_DRIVER_PATH = "C:\\SeleniumDrivers\\chromedriver.exe"  # here give path with \\
+CHROME_USER_DATA_DIRECTORY = "C:\\Users\\dewan\\AppData\\Local\\Google\\Chrome\\User Data" # here give path with \\
