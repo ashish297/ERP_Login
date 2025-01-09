@@ -19,13 +19,13 @@ Prerequisites
 
 ### Example of constants.py
 
-YOUR_ROLL_NUMBER = "<your roll no>"
-YOUR_PASSWORD = "<your password>"
-YOUR_SCHOOL = "<answer to security question>"
-YOUR_FAV_SINGER = "<answer to security question>"
-YOUR_FAV_SPORT = "<answer to security question>"
-SELENIUM_DRIVER_PATH = "C:\\path\\to\\chromedriver.exe"
-CHROME_USER_DATA_DIRECTORY = "C:\\path\\to\\chrome\\user\\data"
+YOUR_ROLL_NUMBER = "<your roll no>"\n
+YOUR_PASSWORD = "<your password>"\n
+YOUR_SCHOOL = "<answer to security question>"\n
+YOUR_FAV_SINGER = "<answer to security question>"\n
+YOUR_FAV_SPORT = "<answer to security question>"\n
+SELENIUM_DRIVER_PATH = "C:\\path\\to\\chromedriver.exe"\n
+CHROME_USER_DATA_DIRECTORY = "C:\\path\\to\\chrome\\user\\data"\n
 
 
 Setup Instructions by OS
