@@ -37,9 +37,9 @@ def user_login():
     # User Details
     roll_no = const.YOUR_ROLL_NUMBER
     password = const.YOUR_PASSWORD
-    your_school = const.YOUR_SCHOOL
-    your_fav_singer = const.YOUR_FAV_SINGER
-    your_fav_sport = const.YOUR_FAV_SPORT
+    answer1 = const.ANSWER1
+    answer2 = const.ANSWER2
+    answer3 = const.ANSWER3
 
     roll_no_element = driver.find_element(By.ID, "user_id")
     roll_no_element.clear()
@@ -53,12 +53,12 @@ def user_login():
     security_question_element = driver.find_element(By.ID, "question")
     security_question_input_element = driver.find_element(By.ID, "answer")
 
-    if str(security_question_element.text.strip()) == "Your First School ?":
-        security_question_input_element.send_keys(your_school)
-    elif str(security_question_element.text.strip()) == "Your Favorite Singer ?":
-        security_question_input_element.send_keys(your_fav_singer)
-    elif str(security_question_element.text.strip()) == "Your Favorite Sport ?":
-        security_question_input_element.send_keys(your_fav_sport)
+    if str(security_question_element.text.strip()) == const.QUESTION1:
+        security_question_input_element.send_keys(answer1)
+    elif str(security_question_element.text.strip()) == const.QUESTION2:
+        security_question_input_element.send_keys(answer2)
+    elif str(security_question_element.text.strip()) == const.QUESTION3:
+        security_question_input_element.send_keys(answer3)
 
     # Send OTP button
     otp_button = driver.find_element(By.ID, "getotp")
