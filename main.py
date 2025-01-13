@@ -26,7 +26,7 @@ chrome_options.add_experimental_option("useAutomationExtension", False)
 chrome_options.add_argument("--log-level=3")  # INFO=0, WARNING=1, LOG_ERROR=2, LOG_FATAL=3
 
 # Initialize the WebDriver with options
-service = Service(f"{const.SELENIUM_DRIVER_PATH}")  # Replace with the path to your ChromeDriver executable
+service = Service(f"{const.CHROME_DRIVER_PATH}")  # Replace with the path to your ChromeDriver executable
 driver = webdriver.Chrome(service=service, options=chrome_options)
 
 def user_login():
